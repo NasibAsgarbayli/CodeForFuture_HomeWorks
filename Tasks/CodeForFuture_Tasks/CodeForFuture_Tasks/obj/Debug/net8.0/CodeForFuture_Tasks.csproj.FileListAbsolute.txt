@@ -1,0 +1,15 @@
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\bin\Debug\net8.0\CodeForFuture_Tasks.exe
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\bin\Debug\net8.0\CodeForFuture_Tasks.deps.json
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\bin\Debug\net8.0\CodeForFuture_Tasks.runtimeconfig.json
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\bin\Debug\net8.0\CodeForFuture_Tasks.dll
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\bin\Debug\net8.0\CodeForFuture_Tasks.pdb
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.AssemblyInfoInputs.cache
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.AssemblyInfo.cs
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.csproj.CoreCompileInputs.cache
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.sourcelink.json
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.dll
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\refint\CodeForFuture_Tasks.dll
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.pdb
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\CodeForFuture_Tasks.genruntimeconfig.cache
+C:\Users\asgar\Desktop\CodeForFuture\Tasks\CodeForFuture_Tasks\CodeForFuture_Tasks\obj\Debug\net8.0\ref\CodeForFuture_Tasks.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeForFuture_Tasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81320c5485cbefbd470e3b053f61e3d3a8cbc15e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c432b8558e9e82243c78d21289c6ee65185bc69")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeForFuture_Tasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeForFuture_Tasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

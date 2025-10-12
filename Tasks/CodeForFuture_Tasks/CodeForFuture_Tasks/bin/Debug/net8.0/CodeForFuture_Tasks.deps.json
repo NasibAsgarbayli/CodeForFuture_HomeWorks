@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CodeForFuture_Tasks/1.0.0": {
+        "runtime": {
+          "CodeForFuture_Tasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodeForFuture_Tasks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
