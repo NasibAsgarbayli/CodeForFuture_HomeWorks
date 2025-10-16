@@ -261,7 +261,7 @@ namespace CodeForFuture_Tasks
         }
 
 
-        class MathOperations
+       public class MathOperations
         {
           
             public int CalculateFactorial(int n)
@@ -281,7 +281,7 @@ namespace CodeForFuture_Tasks
             }
         }
 
-        class AuthService
+       public class AuthService
         {
             
             public void Login(string email, string password)
