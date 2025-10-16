@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 namespace CodeForFuture_Tasks
@@ -40,12 +41,29 @@ namespace CodeForFuture_Tasks
             //{
             //    return input.EndsWith(".com");
             //}
-            //#endregion
+            ////#endregion
+            //MathOperations mathOps = new MathOperations();
+            //Console.Write("Müsbət ədəd daxil edin: ");
+            //int number = Convert.ToInt32(Console.ReadLine());
+
+            //int factorial = mathOps.CalculateFactorial(number);
+            //if (factorial != -1)
+            //    Console.WriteLine($"{number}! = {factorial}");
+
+            AuthService auth = new AuthService();
+
+            Console.Write("Email daxil edin: ");
+            string email = Console.ReadLine();
+
+            Console.Write("Şifrə daxil edin: ");
+            string password = Console.ReadLine();
+
+            auth.Login(email, password);
 
 
-            Person person = new Person("Aslan", "Merdanli", 20, "Ehmedli");
+            //Person person = new Person("Aslan", "Merdanli", 20, "Ehmedli");
 
-            Console.WriteLine(person.Name + " " + person.Surname + " " + person.Age + " " + person.Address);
+            //Console.WriteLine(person.Name + " " + person.Surname + " " + person.Age + " " + person.Address);
             //// 2) RepeatNum
             //Console.WriteLine("---- RepeatNum ----");
             //var repeatedNums = RepeatNum(5, 4);
@@ -185,29 +203,29 @@ namespace CodeForFuture_Tasks
 
 
             #region Array, OOP, Class Tasks
-            var obj = new
-            {
-                name = "Nesib",
-                surname = "Asgarbayli",
-                age = 19,
-                address = "Ehmedli Xezer"
-            };
+       //     var obj = new
+       //     {
+       //         name = "Nesib",
+       //         surname = "Asgarbayli",
+       //         age = 19,
+       //         address = "Ehmedli Xezer"
+       //     };
 
 
 
-            int[,] numbers = new int[3, 4]
-            {
-                {1,2,3,4 },
-                {5,6,7,8 },
-                {9,10,11,12 }
-            };
+       //     int[,] numbers = new int[3, 4]
+       //     {
+       //         {1,2,3,4 },
+       //         {5,6,7,8 },
+       //         {9,10,11,12 }
+       //     };
 
-            int[,] numbers2 =
-       {
-                {1,2,3,4 },
-                {5,6,7,8 },
-                {9,10,11,12 }
-       };
+       //     int[,] numbers2 =
+       //{
+       //         {1,2,3,4 },
+       //         {5,6,7,8 },
+       //         {9,10,11,12 }
+       //};
 
 
             #endregion
@@ -236,6 +254,46 @@ namespace CodeForFuture_Tasks
             public void GetInfo()
             {
                 Console.WriteLine($"Name: {Name}, Surname: {Surname}, Age: {Age}, Address: {Address}");
+            }
+
+
+
+        }
+
+
+        class MathOperations
+        {
+          
+            public int CalculateFactorial(int n)
+            {
+                if (n < 0)
+                {
+                    Console.WriteLine("Menfi ədədlərin faktorialı yoxdur!");
+                    return -1;
+                }
+
+                int result = 1;
+                for (int i = 1; i <= n; i++)
+                {
+                    result *= i;
+                }
+                return result;
+            }
+        }
+
+        class AuthService
+        {
+            
+            public void Login(string email, string password)
+            {
+                if (email == "emil@code.edu.az" && password == "12345")
+                {
+                    Console.WriteLine("Giriş olundu ");
+                }
+                else
+                {
+                    Console.WriteLine("Mail və yaxud parol səhvdir ");
+                }
             }
         }
     }
