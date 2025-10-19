@@ -2,12 +2,29 @@
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
+using CodeForFuture_Tasks.Interfaces;
+using CodeForFuture_Tasks.Models;
 namespace CodeForFuture_Tasks
 {
     class Program
     {
         static void Main(string[] args)
         {
+            ICalculation calc = new Calculation();
+
+            Console.Write("Birinci ədədi daxil edin: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("İkinci ədədi daxil edin: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Əməliyyatı daxil edin (+, -, *, /): ");
+            string operation = Console.ReadLine();
+
+            double result = calc.Calculate(num1, num2, operation);
+
+            Console.WriteLine($"Nəticə: {result}");
+
 
             //Console.Write("Ededi daxil edin: ");
             // 1) İlk hərfi böyük, qalanları kiçik et
@@ -50,15 +67,15 @@ namespace CodeForFuture_Tasks
             //if (factorial != -1)
             //    Console.WriteLine($"{number}! = {factorial}");
 
-            AuthService auth = new AuthService();
+            //AuthService auth = new AuthService();
 
-            Console.Write("Email daxil edin: ");
-            string email = Console.ReadLine();
+            //Console.Write("Email daxil edin: ");
+            //string email = Console.ReadLine();
 
-            Console.Write("Şifrə daxil edin: ");
-            string password = Console.ReadLine();
+            //Console.Write("Şifrə daxil edin: ");
+            //string password = Console.ReadLine();
 
-            auth.Login(email, password);
+            //auth.Login(email, password);
 
 
             //Person person = new Person("Aslan", "Merdanli", 20, "Ehmedli");
@@ -199,106 +216,106 @@ namespace CodeForFuture_Tasks
 
 
 
-         
+
 
 
             #region Array, OOP, Class Tasks
-       //     var obj = new
-       //     {
-       //         name = "Nesib",
-       //         surname = "Asgarbayli",
-       //         age = 19,
-       //         address = "Ehmedli Xezer"
-       //     };
+            //     var obj = new
+            //     {
+            //         name = "Nesib",
+            //         surname = "Asgarbayli",
+            //         age = 19,
+            //         address = "Ehmedli Xezer"
+            //     };
 
 
 
-       //     int[,] numbers = new int[3, 4]
-       //     {
-       //         {1,2,3,4 },
-       //         {5,6,7,8 },
-       //         {9,10,11,12 }
-       //     };
+            //     int[,] numbers = new int[3, 4]
+            //     {
+            //         {1,2,3,4 },
+            //         {5,6,7,8 },
+            //         {9,10,11,12 }
+            //     };
 
-       //     int[,] numbers2 =
-       //{
-       //         {1,2,3,4 },
-       //         {5,6,7,8 },
-       //         {9,10,11,12 }
-       //};
+            //     int[,] numbers2 =
+            //{
+            //         {1,2,3,4 },
+            //         {5,6,7,8 },
+            //         {9,10,11,12 }
+            //};
 
 
             #endregion
-        }
-        public class Person
-        {
-            public string Name { get; set; }
-            public string Surname { get; set; }
-            public int Age { get; set; }
-            public string Address { get; set; }
-            public Person(string name, string surname, int age, string address) : this()
-            {
-                Name = name;
-                Surname = surname;
-                Age = age;
-                Address = address;
-            }
+            // }
+            // public class Person
+            // {
+            //     public string Name { get; set; }
+            //     public string Surname { get; set; }
+            //     public int Age { get; set; }
+            //     public string Address { get; set; }
+            //     public Person(string name, string surname, int age, string address) : this()
+            //     {
+            //         Name = name;
+            //         Surname = surname;
+            //         Age = age;
+            //         Address = address;
+            //     }
 
-            public Person()
-            {
-                Name = "Nesib";
-                Surname = "Asgarbayli";
-                Age = 19;
-                Address = "Ehmedli Xezer";
-            }
-            public void GetInfo()
-            {
-                Console.WriteLine($"Name: {Name}, Surname: {Surname}, Age: {Age}, Address: {Address}");
-            }
-
-
-
-        }
+            //     public Person()
+            //     {
+            //         Name = "Nesib";
+            //         Surname = "Asgarbayli";
+            //         Age = 19;
+            //         Address = "Ehmedli Xezer";
+            //     }
+            //     public void GetInfo()
+            //     {
+            //         Console.WriteLine($"Name: {Name}, Surname: {Surname}, Age: {Age}, Address: {Address}");
+            //     }
 
 
-       public class MathOperations
-        {
-          
-            public int CalculateFactorial(int n)
-            {
-                if (n < 0)
-                {
-                    Console.WriteLine("Menfi ədədlərin faktorialı yoxdur!");
-                    return -1;
-                }
 
-                int result = 1;
-                for (int i = 1; i <= n; i++)
-                {
-                    result *= i;
-                }
-                return result;
-            }
-        }
+            // }
 
-       public class AuthService
-        {
-            
-            public void Login(string email, string password)
-            {
-                if (email == "emil@code.edu.az" && password == "12345")
-                {
-                    Console.WriteLine("Giriş olundu ");
-                }
-                else
-                {
-                    Console.WriteLine("Mail və yaxud parol səhvdir ");
-                }
-            }
+
+            //public class MathOperations
+            // {
+
+            //     public int CalculateFactorial(int n)
+            //     {
+            //         if (n < 0)
+            //         {
+            //             Console.WriteLine("Menfi ədədlərin faktorialı yoxdur!");
+            //             return -1;
+            //         }
+
+            //         int result = 1;
+            //         for (int i = 1; i <= n; i++)
+            //         {
+            //             result *= i;
+            //         }
+            //         return result;
+            //     }
+            // }
+
+            //public class AuthService
+            // {
+
+            //     public void Login(string email, string password)
+            //     {
+            //         if (email == "emil@code.edu.az" && password == "12345")
+            //         {
+            //             Console.WriteLine("Giriş olundu ");
+            //         }
+            //         else
+            //         {
+            //             Console.WriteLine("Mail və yaxud parol səhvdir ");
+            //         }
+            //     }
+            // }
         }
     }
 }
-
 
 
 
