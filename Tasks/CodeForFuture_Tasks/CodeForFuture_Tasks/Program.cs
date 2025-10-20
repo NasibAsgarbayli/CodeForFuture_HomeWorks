@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
+using CodeForFuture_Tasks.Extensions;
 using CodeForFuture_Tasks.Interfaces;
 using CodeForFuture_Tasks.Models;
 namespace CodeForFuture_Tasks
@@ -10,21 +11,22 @@ namespace CodeForFuture_Tasks
     {
         static void Main(string[] args)
         {
-            ICalculation calc = new Calculation();
+            //ICalculation calc = new Calculation();
 
-            Console.Write("Birinci ədədi daxil edin: ");
-            double num1 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Birinci ədədi daxil edin: ");
+            //double num1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("İkinci ədədi daxil edin: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("İkinci ədədi daxil edin: ");
+            //double num2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Əməliyyatı daxil edin (+, -, *, /): ");
-            string operation = Console.ReadLine();
+            //Console.Write("Əməliyyatı daxil edin (+, -, *, /): ");
+            //string operation = Console.ReadLine();
 
-            double result = calc.Calculate(num1, num2, operation);
+            //double result = calc.Calculate(num1, num2, operation);
 
-            Console.WriteLine($"Nəticə: {result}");
-
+            //Console.WriteLine($"Nəticə: {result}");
+            int a = 3;
+            Console.WriteLine(a.Pow(4));
 
             //Console.Write("Ededi daxil edin: ");
             // 1) İlk hərfi böyük, qalanları kiçik et
