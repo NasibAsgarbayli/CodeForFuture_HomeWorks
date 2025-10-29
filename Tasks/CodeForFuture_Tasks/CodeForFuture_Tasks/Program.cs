@@ -7,10 +7,64 @@ using CodeForFuture_Tasks.Interfaces;
 using CodeForFuture_Tasks.Models;
 namespace CodeForFuture_Tasks
 {
-    class Program
+    internal class Program
     {
+        #region CodeTaskAboutDelegate
+        public static List<string> FilterStrings(List<string> items, Predicate<string> condition)
+        {
+            List<string> result = new List<string>();
+
+            foreach (string item in items)
+            {
+                if (condition(item))  // Predicate true qaytarırsa, əlavə et
+                {
+                    result.Add(item);
+                }
+            }
+
+            return result;
+        }
+        #endregion
+        public delegate bool CheckNums(int num);
+        public static bool CheckOdd(int num)
+        {
+            return num % 2 != 0;
+        }
+        public static bool CheckEven(int num)
+        {
+            return num % 2 == 0;
+        }
+        public static bool CheckGreaterThanFive(int num)
+        {
+            return num > 5;
+        }
+        public static int CheckAndSumNum(CheckNums del, int[] nums)
+        {
+            int sum = 0;
+            foreach (int num in nums)
+            {
+                if (del(num))
+                {
+                    sum += num;
+                }
+            }
+            return sum;
+        }
         static void Main(string[] args)
         {
+            int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            Console.WriteLine(CheckAndSumNum(CheckOdd, nums));
+            Console.WriteLine(CheckAndSumNum(CheckEven, nums));
+            Console.WriteLine(CheckAndSumNum(CheckGreaterThanFive, nums));
+            List<string> names = new List<string> { "Ali", "Ismayil", "Aydan", "Ramin", "Afaq" };
+
+            List<string> filtered = FilterStrings(names, x => x.StartsWith("A"));
+
+            Console.WriteLine("A ilə başlayan adlar:");
+            foreach (string name in filtered)
+            {
+                Console.WriteLine(name);
+            }
             //ICalculation calc = new Calculation();
 
             //Console.Write("Birinci ədədi daxil edin: ");
@@ -25,8 +79,8 @@ namespace CodeForFuture_Tasks
             //double result = calc.Calculate(num1, num2, operation);
 
             //Console.WriteLine($"Nəticə: {result}");
-            int a = 3;
-            Console.WriteLine(a.Pow(4));
+            //int a = 3;
+            //Console.WriteLine(a.Pow(4));
 
             //Console.Write("Ededi daxil edin: ");
             // 1) İlk hərfi böyük, qalanları kiçik et
@@ -124,40 +178,40 @@ namespace CodeForFuture_Tasks
 
 
 
-            int n = Convert.ToInt32(Console.ReadLine());
-            bool isPrime = true;
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //bool isPrime = true;
 
-            if (n == 0 || n == 1)
-            {
-                Console.WriteLine($"{n} ne sade, ne de mürekkeb ededdir");
-            }
-            else
-            {
-                if (n < 0)
-                {
-                    Console.WriteLine("Menfi ededler üçün sadelik yoxlanmır");
-                }
-                else
-                {
-                    for (int i = 2; i * i <= n; i++)
-                    {
-                        if (n % i == 0)
-                        {
-                            isPrime = false;
-                            break;
-                        }
-                    }
+            //if (n == 0 || n == 1)
+            //{
+            //    Console.WriteLine($"{n} ne sade, ne de mürekkeb ededdir");
+            //}
+            //else
+            //{
+            //    if (n < 0)
+            //    {
+            //        Console.WriteLine("Menfi ededler üçün sadelik yoxlanmır");
+            //    }
+            //    else
+            //    {
+            //        for (int i = 2; i * i <= n; i++)
+            //        {
+            //            if (n % i == 0)
+            //            {
+            //                isPrime = false;
+            //                break;
+            //            }
+            //        }
 
-                    if (isPrime)
-                    {
-                        Console.WriteLine($"{n} ededi sade ededdir");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"{n} ededi mürekkeb ededdir");
-                    }
-                }
-            }
+            //        if (isPrime)
+            //        {
+            //            Console.WriteLine($"{n} ededi sade ededdir");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine($"{n} ededi mürekkeb ededdir");
+            //        }
+            //    }
+            //}
 
 
             #endregion
@@ -316,7 +370,7 @@ namespace CodeForFuture_Tasks
             //     }
             // }
         }
-    }
+    } 
 }
 
 
