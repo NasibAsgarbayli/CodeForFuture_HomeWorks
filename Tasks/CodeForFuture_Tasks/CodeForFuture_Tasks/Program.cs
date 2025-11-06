@@ -11,6 +11,10 @@ namespace CodeForFuture_Tasks
 {
     internal class Program
     {
+
+
+
+
         #region CodeTaskAboutDelegate
         public static List<string> FilterStrings(List<string> items, Predicate<string> condition)
         {
@@ -87,6 +91,41 @@ namespace CodeForFuture_Tasks
         }
         static async void Main(string[] args)
         {
+
+            #region ConsoleApp
+            Console.WriteLine("Sevdiyin futbol klubunu seç:");
+            Console.WriteLine("1. Real Madrid");
+            Console.WriteLine("2. Barcelona");
+            Console.WriteLine("3. Manchester United");
+            Console.WriteLine("4. PSG");
+            Console.WriteLine("5. Galatasaray");
+            Console.Write("Seçimin (1-5): ");
+
+            string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    Console.WriteLine("⚪ Real Madrid — Həmişə qalibiyyət üçün oynayır!");
+                    break;
+                case "2":
+                    Console.WriteLine("🔵🔴 Barcelona — Tiki-taka ustaları!");
+                    break;
+                case "3":
+                    Console.WriteLine("🔴 Manchester United — Qırmızı şeytanlar!");
+                    break;
+                case "4":
+                    Console.WriteLine("🔵 PSG — Parisin gücü Mbappé ilə!");
+                    break;
+                case "5":
+                    Console.WriteLine("🟡🔴 Galatasaray — Cimbom her daim zirvede!");
+                    break;
+                default:
+                    Console.WriteLine("Bu nömrəyə uyğun komanda yoxdur 😅");
+                    break;
+            }
+
+            #endregion
             Thread thread1 = new Thread(GetNumbers);
             Thread thread2 = new Thread(GetNumbers2);
 
@@ -134,7 +173,7 @@ namespace CodeForFuture_Tasks
                 Console.Write("İkinci ədədi daxil et: ");
                 int num2 = int.Parse(Console.ReadLine());
 
-                int result = num1 / num2;
+                int result1 = num1 / num2;
                 Console.WriteLine("Nəticə: " + result);
             }
             catch (DivideByZeroException)
