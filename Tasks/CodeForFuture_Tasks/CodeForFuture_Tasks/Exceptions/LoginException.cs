@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CodeForFuture_Tasks.Exceptions;
 
-namespace CodeForFuture_Tasks.Exceptions
+public class LoginException:Exception
 {
-    internal class LoginException
+    public LoginException(string message):base(message)
     {
+
     }
 }
