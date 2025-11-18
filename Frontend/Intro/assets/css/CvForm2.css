@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.resume-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.header-left {
+    flex: 1;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #000;
+    font-weight: normal;
+}
+
+.header-right {
+    text-align: right;
+}
+
+.download-btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #333;
+}
+
+.contact-info {
+    font-size: 14px;
+    color: #cc0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-info p {
+    margin-bottom: 3px;
+}
+
+/* Section Divider */
+.section-divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+    background-color: #ddd;
+    height: 1px;
+}
+
+/* Section Headings */
+.section-heading {
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Profile Section */
+.profile-section {
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 14px;
+    color: #000;
+    line-height: 1.6;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Skills Section */
+.skills-section {
+    margin-bottom: 10px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.skill-item {
+    width: 100%;
+}
+
+.skill-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skill-description {
+    font-size: 13px;
+    color: #000;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Technical Section */
+.technical-section {
+    margin-bottom: 10px;
+}
+
+.technical-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.technical-column {
+    width: 100%;
+}
+
+.technical-column p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Experience Section */
+.experience-section {
+    margin-bottom: 10px;
+}
+
+.experience-entry {
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.experience-left {
+    flex: 1;
+}
+
+.company-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.job-title {
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-dates {
+    font-size: 14px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-description {
+    font-size: 13px;
+    color: #000;
+    line-height: 1.6;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 25px;
+    }
+
+    .resume-header {
+        flex-direction: column;
+    }
+
+    .header-right {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .skills-grid,
+    .technical-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .experience-header {
+        flex-direction: column;
+    }
+
+    .experience-dates {
+        margin-top: 5px;
+    }
+
+    body {
+        padding: 20px 10px;
+    }
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        padding: 0;
+    }
+
+    .resume-container {
+        border: none;
+        box-shadow: none;
+        padding: 20px;
+    }
+
+    .download-btn {
+        display: none;
+    }
+}
+
