@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="assets/css/application-form.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-wrapper">
+            <h1 class="form-title">Application form</h1>
+            <form class="application-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="ad">Ad</label>
+                        <input type="text" id="ad" name="ad" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="soyad">Soyad</label>
+                        <input type="text" id="soyad" name="soyad" class="form-input">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="silbe">Silbe</label>
+                    <input type="text" id="silbe" name="silbe" class="form-input" value="Yellow">
+                </div>
+                
+                <div class="form-group">
+                    <label class="label-text">Cinsiyet seçin</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="cinsiyet" value="K">
+                            <span>K</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="cinsiyet" value="Q">
+                            <span>Q</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="label-text">Bitirdiyiniz tahsil derecesini seçin</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="tahsil" value="Orta">
+                            <span>Orta</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="tahsil" value="Bakalavr">
+                            <span>Bakalavr</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="tahsil" value="Magistr">
+                            <span>Magistr</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="tahsil" value="Doktor">
+                            <span>Doktor</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="yas">Yaş</label>
+                        <input type="number" id="yas" name="yas" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="boy">Boy</label>
+                        <input type="text" id="boy" name="boy" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="ceki">Çeki</label>
+                        <input type="text" id="ceki" name="ceki" class="form-input">
+                    </div>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit" class="submit-button">Tesdiq</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
