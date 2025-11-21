@@ -1,0 +1,55 @@
+/* Custom Styles for Bootstrap Layout */
+
+/* Navigation Active State */
+.navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+}
+
+/* Hero Section */
+.jumbotron {
+    border-radius: 0.25rem;
+}
+
+/* Content Blocks */
+.content-block {
+    min-height: 250px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    border-radius: 0.25rem;
+}
+
+.sidebar-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-section ul li a:hover {
+    text-decoration: underline !important;
+}
+
+/* Button Styling */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .sidebar {
+        margin-top: 2rem;
+    }
+}
