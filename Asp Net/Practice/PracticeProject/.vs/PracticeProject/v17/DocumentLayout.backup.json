@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\asp net\\practice\\practiceproject\\practiceproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|solutionrelative:practiceproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\asp net\\practice\\practiceproject\\practiceproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|solutionrelative:practiceproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -71,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|solutionrelative:practiceproject\\migrations\\20251217073807_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\asp net\\practice\\practiceproject\\practiceproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|solutionrelative:practiceproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\asp net\\practice\\practiceproject\\practiceproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A069AD02-2515-4E20-A9B1-478E61EE88FC}|PracticeProject\\PracticeProject.csproj|solutionrelative:practiceproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -102,38 +102,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PracticeProject\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PracticeProject\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T09:17:13.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PracticeProject\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PracticeProject\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T08:54:37.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PracticeProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "PracticeProject\\Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PracticeProject\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAGAEAAAAAAAAAAAIwGkEAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-17T07:41:59.228Z",
@@ -141,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AboutViewModel.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Models\\AboutViewModel.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Models\\AboutViewModel.cs",
@@ -149,12 +123,48 @@
               "RelativeToolTip": "PracticeProject\\Models\\AboutViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:30:27.46Z",
+              "WhenOpened": "2025-12-17T07:30:27.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\appsettings.json",
+              "RelativeDocumentMoniker": "PracticeProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\appsettings.json",
+              "RelativeToolTip": "PracticeProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-17T07:36:07.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PracticeProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PracticeProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T08:54:37.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PracticeProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PracticeProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T09:17:13.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Program.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Program.cs",
@@ -162,12 +172,11 @@
               "RelativeToolTip": "PracticeProject\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:34:07.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:34:07.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "PracticeProject\\Views\\_ViewImports.cshtml",
@@ -175,25 +184,23 @@
               "RelativeToolTip": "PracticeProject\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T07:32:07.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "PracticeProject\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\About\\Index.cshtml*",
-              "RelativeToolTip": "PracticeProject\\Views\\About\\Index.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T07:32:04.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:32:07.504Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "PracticeProject\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "PracticeProject\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-17T07:32:04.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Controllers\\AboutController.cs",
@@ -201,12 +208,11 @@
               "RelativeToolTip": "PracticeProject\\Controllers\\AboutController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwBgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T07:27:04.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:27:04.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Models\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Models\\HomeViewModel.cs",
@@ -214,12 +220,11 @@
               "RelativeToolTip": "PracticeProject\\Models\\HomeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T08:53:59.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T08:53:59.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Models\\Category.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Models\\Category.cs",
@@ -227,12 +232,11 @@
               "RelativeToolTip": "PracticeProject\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T08:52:34.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T08:52:34.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\About\\Privacy.cshtml",
               "RelativeDocumentMoniker": "PracticeProject\\Views\\About\\Privacy.cshtml",
@@ -240,12 +244,11 @@
               "RelativeToolTip": "PracticeProject\\Views\\About\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-17T07:32:06.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T07:32:06.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "PracticeProject\\Views\\Shared\\_Layout.cshtml.css",
@@ -257,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Data\\AppDbContext.cs",
@@ -269,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Models\\Product.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Models\\Product.cs",
@@ -281,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "PracticeProject\\Views\\_ViewStart.cshtml",
@@ -293,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Models\\Slider.cs",
@@ -305,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20251217073807_Initial.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\Migrations\\20251217073807_Initial.cs",
               "RelativeDocumentMoniker": "PracticeProject\\Migrations\\20251217073807_Initial.cs",
@@ -314,18 +317,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T07:54:49.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\appsettings.json",
-              "RelativeDocumentMoniker": "PracticeProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\Asp Net\\Practice\\PracticeProject\\PracticeProject\\appsettings.json",
-              "RelativeToolTip": "PracticeProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-17T07:36:07.728Z"
             },
             {
               "$type": "Document",

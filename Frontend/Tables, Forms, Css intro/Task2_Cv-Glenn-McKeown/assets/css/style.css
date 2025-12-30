@@ -1,0 +1,101 @@
+body {
+  background: #6e757c;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 32px 0;
+}
+.resume-container {
+  background: #fff;
+  margin: 0 auto;
+  padding: 36px 40px;
+  max-width: 760px;
+  border-radius: 6px;
+  box-shadow: 0 8px 28px rgba(60, 60, 60, 0.15);
+}
+
+.header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+.header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+.header h1 span {
+  font-weight: normal;
+}
+.header h2 {
+  font-size: 1.1rem;
+  color: #757575;
+  font-weight: normal;
+  margin: 8px 0 10px 0;
+}
+.header .quote {
+  font-size: 1rem;
+  color: #727272;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.header .contact {
+  font-size: 0.98rem;
+  color: #444;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.header .contact div {
+  margin-bottom: 3px;
+}
+
+.main {
+  display: flex;
+  gap: 36px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+.left-column section, .right-column section {
+  margin-bottom: 22px;
+}
+
+.left-column h3, .right-column h3 {
+  color: #2278c2;
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 4px;
+}
+
+.job, .edu {
+  margin-bottom: 12px;
+}
+
+.job-title, .edu-title {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.job-desc {
+  font-size: 0.97rem;
+  color: #3f3f3f;
+}
+
+ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+strong {
+  color: #444;
+  font-weight: bold;
+}
+
+.right-column div {
+  margin-bottom: 12px;
+}

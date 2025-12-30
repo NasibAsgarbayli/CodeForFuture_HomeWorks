@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header-container">
+        <h1>Register</h1>
+        <p>Create your account. It's free and only takes a minute.</p>
+      </div>
+      <div class="form-container">
+        <form>
+          <div style="display: flex; gap: 10px">
+            <input
+              type="text"
+              id="first-name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confrim Password"
+            required
+          />
+
+          <div class="terms-row">
+            <label>
+              <input type="checkbox" id="terms" required />
+              <span class="gray-part">
+                I accept the
+                <span class="green-part">
+                  Terms of Use <span class="gray-part">&</span> Privacy Policy
+                </span>
+              </span>
+            </label>
+          </div>
+
+          <input type="submit" id="register-button" value="Register Now" />
+        </form>
+      </div>
+    </div>
+    <div class="goto-signin">
+      <p>Already have an account? <a href="#" class="signin">Sign in</a></p>
+    </div>
+  </body>
+</html>
