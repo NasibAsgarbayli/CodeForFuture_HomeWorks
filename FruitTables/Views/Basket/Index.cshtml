@@ -1,0 +1,19 @@
+@model fruitables_1_0_0.Models.Basket
+@{
+    ViewBag.Title = "Səbət";
+}
+<h1>Səbət</h1>
+@if (Model.Products.Count == 0)
+{
+    <p>Səbət boşdur.</p>
+}
+else
+{
+    <ul>
+    @foreach (var product in Model.Products)
+    {
+        <li>@product.Name - @product.Price AZN</li>
+    }
+    </ul>
+}
+<a href="/Shop">Məhsullara bax</a>

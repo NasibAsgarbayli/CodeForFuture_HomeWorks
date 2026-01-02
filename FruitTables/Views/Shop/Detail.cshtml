@@ -1,0 +1,10 @@
+@model fruitables_1_0_0.Models.Product
+@{
+    ViewBag.Title = "Məhsul detalları";
+}
+<h1>@Model.Name</h1>
+<img src="@Model.ImageUrl" width="200" />
+<p>@Model.Description</p>
+<p>Qiymət: @Model.Price AZN</p>
+<a href="/Basket/Add?productId=@Model.Id">Səbətə at</a>
+<a href="/Shop">Geri</a>
