@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o1FqtxcnUGk=",
+  "dgSpecHash": "2N7siquBbEY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\asgar\\Desktop\\FruitTable\\FruitTable\\FruitTable.csproj",
+  "projectFilePath": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\FruitTable.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asgar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\asgar\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

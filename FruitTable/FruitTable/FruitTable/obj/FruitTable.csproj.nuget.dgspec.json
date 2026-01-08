@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asgar\\Desktop\\FruitTable\\FruitTable\\FruitTable.csproj": {}
+    "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\FruitTable.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asgar\\Desktop\\FruitTable\\FruitTable\\FruitTable.csproj": {
+    "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\FruitTable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asgar\\Desktop\\FruitTable\\FruitTable\\FruitTable.csproj",
+        "projectUniqueName": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\FruitTable.csproj",
         "projectName": "FruitTable",
-        "projectPath": "C:\\Users\\asgar\\Desktop\\FruitTable\\FruitTable\\FruitTable.csproj",
+        "projectPath": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\FruitTable.csproj",
         "packagesPath": "C:\\Users\\asgar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asgar\\Desktop\\FruitTable\\FruitTable\\obj\\",
+        "outputPath": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
