@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\fruittable\\fruittable\\fruittable\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|solutionrelative:fruittable\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\fruittable\\fruittable\\fruittable\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|solutionrelative:fruittable\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -93,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\fruittable\\fruittable\\fruittable\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|solutionrelative:fruittable\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\fruittable\\fruittable\\fruittable\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|solutionrelative:fruittable\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32D703DB-3FD5-4B12-BC6C-F5ABED56E1E1}|FruitTable\\FruitTable.csproj|c:\\users\\asgar\\desktop\\codeforfuture\\fruittable\\fruittable\\fruittable\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -210,7 +210,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -227,19 +227,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Paginate.cs",
-              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Helpers\\Paginate.cs",
-              "RelativeDocumentMoniker": "FruitTable\\Helpers\\Paginate.cs",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Helpers\\Paginate.cs",
-              "RelativeToolTip": "FruitTable\\Helpers\\Paginate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:58:07.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Controllers\\ProductController.cs",
@@ -247,25 +234,24 @@
               "RelativeToolTip": "FruitTable\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:56:54.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T11:56:54.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Product\\Index.cshtml*",
-              "RelativeToolTip": "FruitTable\\Areas\\Admin\\Views\\Product\\Index.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "FruitTable\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-08T11:56:54.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "20260108115310_Init.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Migrations\\20260108115310_Init.cs",
               "RelativeDocumentMoniker": "FruitTable\\Migrations\\20260108115310_Init.cs",
@@ -273,12 +259,11 @@
               "RelativeToolTip": "FruitTable\\Migrations\\20260108115310_Init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:56:54.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T11:56:54.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Product\\Update.cshtml",
@@ -290,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
@@ -302,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -314,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CreateProductVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\CreateProductVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\CreateProductVM.cs",
@@ -326,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -338,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Category\\Update.cshtml",
@@ -350,7 +335,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\appsettings.json",
+              "RelativeDocumentMoniker": "FruitTable\\appsettings.json",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\appsettings.json",
+              "RelativeToolTip": "FruitTable\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T11:56:54.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paginate.cs",
+              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Helpers\\Paginate.cs",
+              "RelativeDocumentMoniker": "FruitTable\\Helpers\\Paginate.cs",
+              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Helpers\\Paginate.cs",
+              "RelativeToolTip": "FruitTable\\Helpers\\Paginate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T11:58:07.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -362,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Category\\Detail.cshtml",
@@ -374,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -386,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Program.cs",
               "RelativeDocumentMoniker": "FruitTable\\Program.cs",
@@ -398,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -410,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UpdateProductVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\UpdateProductVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\UpdateProductVM.cs",
@@ -422,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GetAllProductVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\GetAllProductVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\GetAllProductVM.cs",
@@ -434,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DetailProductVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\DetailProductVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\ProductVM\\DetailProductVM.cs",
@@ -446,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "UpdateCategoryVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\UpdateCategoryVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\UpdateCategoryVM.cs",
@@ -458,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "GetAllCategoryVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\GetAllCategoryVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\GetAllCategoryVM.cs",
@@ -470,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DetailCategoryVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\DetailCategoryVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\DetailCategoryVM.cs",
@@ -482,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateCategoryVM.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\CreateCategoryVM.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\ViewModels\\CategoryVM\\CreateCategoryVM.cs",
@@ -494,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "FruitTable\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -539,18 +549,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-08T11:56:54.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\appsettings.json",
-              "RelativeDocumentMoniker": "FruitTable\\appsettings.json",
-              "ToolTip": "C:\\Users\\asgar\\Desktop\\CodeForFuture\\FruitTable\\FruitTable\\FruitTable\\appsettings.json",
-              "RelativeToolTip": "FruitTable\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-08T11:56:54.839Z"
             },
             {
               "$type": "Document",
