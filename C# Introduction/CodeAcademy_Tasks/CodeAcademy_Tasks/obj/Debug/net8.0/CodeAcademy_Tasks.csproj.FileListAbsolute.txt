@@ -1,0 +1,15 @@
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\bin\Debug\net8.0\CodeAcademy_Tasks.exe
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\bin\Debug\net8.0\CodeAcademy_Tasks.deps.json
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\bin\Debug\net8.0\CodeAcademy_Tasks.runtimeconfig.json
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\bin\Debug\net8.0\CodeAcademy_Tasks.dll
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\bin\Debug\net8.0\CodeAcademy_Tasks.pdb
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.AssemblyInfoInputs.cache
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.AssemblyInfo.cs
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.sourcelink.json
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.dll
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\refint\CodeAcademy_Tasks.dll
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.pdb
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\CodeAcademy_Tasks.genruntimeconfig.cache
+C:\Users\Leo\Desktop\CodeAcademyTasks\C# Introduction\CodeAcademy_Tasks\CodeAcademy_Tasks\obj\Debug\net8.0\ref\CodeAcademy_Tasks.dll
